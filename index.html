@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="p5.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8" />
+    <script src="objects.js"></script>
+    <title>HydroELectricity</title>
+  </head>
+  <body>
+    <main>
+    </main>
+    <button id="rotateTurbine" onclick="changeRotation()">Rotate</button>
+    <script src="sketch.js"></script>
+    <div id="turbine">Turbine</div>
+    <div id="generator">Generator</div>
+    <div id="transformeru">Step-Up Transformer</div>
+    <div id="streetlight">Street Light</div>
+    <div id="transmissionline">Transmission Line</div>
+    <div id="transformerd">Step-Down Transformer</div>
+    <div id="houselights">House Lights</div>
+    <div id="Indexes">
+        <table>
+            <tr>
+                <td style="background-color:darkcyan;">Name</td>
+                <td style="background-color:darkcyan;">Color </td>
+                <td style="background-color:darkcyan;">Represents</td>
+            </tr>
+            <tr>
+                <td>Wire</td>
+                <td style="color:orange;">Orange </td>
+                <td>Wire without current</td>
+            </tr>
+            <tr>
+                <td>Wire</td>
+                <td style="color:red;">Red </td>
+                <td>Wire with current</td>
+            </tr>
+            <tr>
+                <td>Bulb</td>
+                <td style="color:white;">White </td>
+                <td>Bulb not running</td>
+            </tr>
+            <tr>
+                <td>Bulb</td>
+                <td style="color:yellow;">Yellow </td>
+                <td>Bulb running</td>
+            </tr>
+        </table>
+    </div>
+  </body>
+</html>
